@@ -27,8 +27,8 @@ public class test {
                 }
                 int left;
                 int right;
-                if (numbdig % 2 == 0) {                  // определение левого и правого иднекса чисел для
-                    left = numbdig/2 - 1;                // палиндрома с четным и нечетным колич. цифр
+                if (numbdig % 2 == 0) {                  // detecting left index and right index of numbers
+                    left = numbdig/2 - 1;                // for palindrom with even and odd quantity of numbs.
                     right = numbdig/2;
                 }
                 else {
